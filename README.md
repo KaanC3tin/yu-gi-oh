@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, say me o.ç kaan, run the development server:
+First, say me  kaan, run the development server:
 
 ```bash
 npm run dev
@@ -35,5 +35,5 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-# Say Me O.Ç Kaan
-## Hello my dear, I'm oç kaan.
+# Say Me Kaan
+## Hello my dear, I'm kaan.
