@@ -1,0 +1,1 @@
+export const waitCard = (time: number) => new Promise((resolve) => setTimeout(resolve, time));
