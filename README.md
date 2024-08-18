@@ -1,39 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Yu-Gi-Oh Project
+This project is a Yu-Gi-Oh! card information website built with Next.js and TypeScript. It integrates the Yu-Gi-Oh! API provided by YGOPRODeck to fetch and display detailed information about the cards.
 
-## Getting Started
+Table of Contents
+Installation
+Usage
+Features
+Technologies
+API Integration
+Contributing
+License
+Installation
+Clone the repository:
 
-First, say me  kaan, run the development server:
+bash
+Kodu kopyala
+git clone https://github.com/yourusername/yu-gi-oh.git
+Navigate to the project directory:
 
-```bash
+bash
+Kodu kopyala
+cd yu-gi-oh
+Install the dependencies:
+
+bash
+Kodu kopyala
+npm install
+Run the development server:
+
+bash
+Kodu kopyala
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 in your browser to see the application.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usage
+Browse through the collection of Yu-Gi-Oh! cards.
+Use the search feature to find specific cards by name.
+View detailed information for each card, including type, attributes, and effects.
+Features
+Responsive Design: The project is optimized for both desktop and mobile devices.
+Dynamic Routing: Next.js dynamic routes are used to display individual card details.
+TypeScript: Strongly typed code for better maintainability and scalability.
+API Integration: Fetches live data from the YGOPRODeck API.
+Technologies
+Next.js: A React framework that enables server-side rendering and static site generation.
+TypeScript: A typed superset of JavaScript that adds optional static types.
+Tailwind CSS: A utility-first CSS framework for fast and responsive UI development.
+YGOPRODeck API: An API to retrieve Yu-Gi-Oh! card data.
+API Integration
+This project utilizes the YGOPRODeck API to fetch card data. Below is a brief overview of how the API is integrated:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+API calls are made using the fetch function to retrieve card information.
+The data is then processed and displayed using React components.
+Error handling is implemented to manage API response failures.
+Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Fork the repository.
+Create a new branch (git checkout -b feature-branch).
+Make your changes.
+Commit your changes (git commit -am 'Add new feature').
+Push to the branch (git push origin feature-branch).
+Create a new Pull Request.
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-# Say Me Kaan
-## Hello my dear, I'm kaan.
